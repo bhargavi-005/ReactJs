@@ -6,6 +6,7 @@ import UsingProps from './practise/Prop';
 import LogIn from './practise/login';
 import Click from './practise/declarativePrograming';
 import Hooks from './practise/useState';
+import Event from './practise/eventHandling';
 // var userRegisterd=true;
 
 
@@ -18,9 +19,11 @@ function App() {
       <UsingProps name="ramanhu"/>
 
       <LogIn registerd={userRegisterd}/>
-      <Click/>*/}
+      <Click/>
 
-      <Hooks/>
+      <Hooks/>*/}
+
+      <Event/>
 
       
       
